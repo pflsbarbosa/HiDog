@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Comic Sans MS", cursive, sans-serif; }
 /* ///// Sections ///// */
 
 .colored-section{ background-color: #fd5e53; color:#b0eacd; }
-.white-section{ background-color: #fff; }
+.white-section{ background-color: #fff; height: 100%; padding: 100px 0 0 0;}
 
 /* Navigation Bar */
 
@@ -57,12 +57,17 @@ h1, h2, h3, h4, h5, h6 { font-family: "Comic Sans MS", cursive, sans-serif; }
 .press-log{ width: 15%; margin: 20px 20px 50px; }
 
 /*//////////////Pricing Section\\\\\\\\\\\\\\  */
-#pricing{ padding: 100px; }
+
+/* diagonal pricing card structure  */
+#diagonalStructure{padding: 50px; align-items: center; text-align:center;}
+#leftDiv{ margin-left: 8.33%; margin-right: 4.166%}
+#topDiv{margin-bottom: 50px;}
+#rightDiv{margin-left: 4.166%; margin-right:  8.33%;}
 .price-text{ font-size: 3rem; line-height: 1.5; }
 .pricing-column{ padding:3% 2%; }
-
-.card{ height: 400px; }
-
+.card{ height: auto; width: 100%;}
+.card-body{padding: 20px 0;}
+.row{width: auto;}
 .btn-dark{ background-color: black; color: #fff; padding:auto; }
 .btn-outline-dark{ border-color: blue; color:blue; }
 
